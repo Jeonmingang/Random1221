@@ -1,0 +1,20 @@
+need-key: false
+titles:
+  preview: "&a[미리보기] {key}"
+  spinner: "&6[스피너] {key}"
+  package: "&b[패키지] {name}"
+spinner:
+  size: 27
+  pointer-slot: 13
+  border-material: BLACK_STAINED_GLASS_PANE
+  pointer-material: RED_STAINED_GLASS_PANE
+  spin-ticks-min: 40
+  spin-ticks-max: 80
+  sound:
+    start: UI_BUTTON_CLICK
+    end: UI_TOAST_CHALLENGE_COMPLETE
+preview:
+  show-weight: true
+  lore-format: "&7가중치: &e{weight} &7확률: &e{chance}%"
+package:
+  claim-button-name: "&a수령"

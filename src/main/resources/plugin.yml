@@ -1,0 +1,17 @@
+name: UltimateRandomRoulette
+main: com.minkang.ultimate.random.Main
+version: 1.0.1
+api-version: '1.21'
+author: minkang
+commands:
+  random:
+    description: Roulette management
+    aliases: [rr, rnd, 랜덤]
+    permission: ultimate.random.admin
+  package:
+    description: Package management and claim
+    aliases: [pkg, 패키지]
+    permission: ultimate.random.admin
+permissions:
+  ultimate.random.admin:
+    default: op
